@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="rows">
+            <div class="result-area">
+                <div class="result-col">
+                    <div><span class="result"></span></div>
+                </div>
+            </div>
+            <div class="operation-area">
+                <div class="operation-col">
+                    <div><span>?</span></div>
+                    <div><span>C</div>
+                    <div><span><i class="fa-solid fa-delete-left"></i></span></div>
+                    <div><span>=</span></div>
+                </div>
+            </div>
+            <div class="calculator-area">
+                <div class="number-area">
+                    <div class="number-col">
+                        <div class="number" data-number="1"><span>1</span></div>
+                        <div class="number" data-number="2"><span>2</span></div>
+                        <div class="number" data-number="3"><span>3</span></div>
+                    </div>
+                    <div class="number-col">
+                        <div class="number" data-number="4"><span>4</span></div>
+                        <div class="number" data-number="5"><span>5</span></div>
+                        <div class="number" data-number="6"><span>6</span></div>
+                    </div>
+                    <div class="number-col">
+                        <div class="number" data-number="7"><span>7</span></div>
+                        <div class="number" data-number="8"><span>8</span></div>
+                        <div class="number" data-number="9"><span>9</span></div>
+                    </div>
+                    <div class="number-col">
+                        <div class="number full" data-number="0"><span>0</span></div>
+                    </div>
+                </div>
+                <div class="process-area">
+                    <div class="process-col">
+                        <div class="process" data-process="+"><span>+</span></div>
+                    </div>
+                    <div class="process-col">
+                        <div class="process" data-process="-"><span>-</span></div>
+                    </div>
+                    <div class="process-col">
+                        <div class="process" data-process="x"><span>x</span></div>
+                    </div>
+                    <div class="process-col">
+                        <div class="process" data-process="/"><span>/</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
